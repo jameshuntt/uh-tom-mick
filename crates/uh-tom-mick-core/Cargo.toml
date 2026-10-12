@@ -1,0 +1,19 @@
+[package]
+name = "uh-tom-mick-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Atomic admission, checked counters, and atomic flag-set primitives."
+
+repository = "https://github.com/jameshuntt/uh-tom-mick"
+[features]
+default = []
+loom = ["dep:loom"]
+
+[dependencies]
+loom = { version = "0.7", optional = true }
+big-bad-bool = { package = "big-bad-bool", version = "0.1.0" }
+
+[lints]
+workspace = true

@@ -1,0 +1,21 @@
+[package]
+name = "uh-tom-mick"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Facade for declarative atomic admission, counters, flags, and async dispatch."
+
+repository = "https://github.com/jameshuntt/uh-tom-mick"
+[features]
+default = []
+loom = ["dep:loom", "uh-tom-mick-core/loom"]
+
+[dependencies]
+uh-tom-mick-core = { path = "../uh-tom-mick-core", version = "0.1.0" }
+uh-tom-mick-derive = { path = "../uh-tom-mick-derive", version = "0.1.0" }
+big-bad-bool = { package = "big-bad-bool", version = "0.1.0" }
+loom = { version = "0.7", optional = true }
+
+[lints]
+workspace = true
