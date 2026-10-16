@@ -281,7 +281,7 @@ dependencies = [
 
 [[package]]
 name = "uh-tom-mick"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "big-bad-bool",
  "loom",
@@ -291,7 +291,7 @@ dependencies = [
 
 [[package]]
 name = "uh-tom-mick-core"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "big-bad-bool",
  "loom",
@@ -299,7 +299,7 @@ dependencies = [
 
 [[package]]
 name = "uh-tom-mick-derive"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "proc-macro2",
  "quote",
