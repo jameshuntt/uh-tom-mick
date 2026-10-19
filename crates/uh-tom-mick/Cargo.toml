@@ -2,6 +2,7 @@
 name = "uh-tom-mick"
 version.workspace = true
 edition.workspace = true
+rust-version.workspace = true
 license.workspace = true
 authors.workspace = true
 description = "Facade for declarative atomic admission, counters, flags, and async dispatch."
